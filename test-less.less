@@ -1,11 +1,3 @@
-.icon-fill(@src, @fill-default, @fill-new){
-    @escape-fill-default: escape(@fill-default);
-    @escape-fill-new: escape(@fill-new);
-    @data-uri: data-uri('image/svg+xml;charset=UTF-8', "@{src}");
-    @replace-src: replace("@{data-uri}", "@{escape-fill-default}", "@{escape-fill-new}");
-    background-image:e(@replace-src);
-}
-
 .icon-no-fill(@src, @fill-new){
     @data-uri: data-uri('image/svg+xml;charset=UTF-8', "@{src}");
     @replace-default: escape('<path ');
@@ -14,12 +6,11 @@
     background-image: e(@replace-src);
 }
 
-.xxx{
+.less{
     width: 40px;
     height: 40px;
-    .icon-no-fill("loading.svg", "#FF0000");
-    display: inline-block;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
+    .icon-no-fill("loading.svg", "#00FF00");
 }
