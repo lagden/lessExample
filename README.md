@@ -8,6 +8,10 @@ To generate stylesheet:
 
     lessc test-less.less less.css
 
+Sass
+----
+
+[See here](https://github.com/lagden/sass-inline-svg-image)
 
 ## Author
 
