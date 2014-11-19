@@ -1,22 +1,14 @@
 Modifying SVG Background Fills
 ==============================
 
-How to use
-
 Less
 ----
 
-Generate css from `LESS`:
+To generate stylesheet:
 
     lessc test-less.less less.css
 
 
-Sass
-----
+## Author
 
-Generate css from `SASS` css:
-
-**Usage:**
-
-    sass --require './test-sass.rb' test-sass.sass > sass.css
-
+[Thiago Lagden](http://lagden.in)

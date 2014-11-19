@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,KAAK;EACH,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EAEV,gBAAK,EAAE,wuBAAwC;EAC/C,iBAAM,EAAE,SAAS;EACjB,mBAAQ,EAAE,aAAa;EACvB,eAAI,EAAE,OAAO",
-"sources": ["test-sass.sass"],
-"names": [],
-"file": "sass.css"
-}
